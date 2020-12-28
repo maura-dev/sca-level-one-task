@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" lang="en"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Maureen's Portfolio</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">                                      
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+	<!--NAVIGATION BAR LAYOUT-->
+	<div class="nav-bar">
+		<img src="images/logo.png" width="50px" height="50px" align="left">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#Projects"> My Projects</a></li>
+			<li><a href="#Contact"> Contact Me</a></li>
+			<li><a href="#gallery">Gallery</a></li>
+		</ul>
+	</div>
+
+	<!--Hamburger menu-->
+	<nav role="navigation">
+		<img src="images/logo.png" width="50px" height="auto" align="right">
+  		<div id="menuToggle">
+  			<input type="checkbox" />
+
+  			<span></span>
+    		<span></span>
+    		<span></span>
+
+
+    		 <ul id="menu">
+     			 <a href="#home"><li>Home</li></a>
+     			 <a href="#about"><li>About Me</li></a>
+     			 <a href="#Projects"><li>Projects</li></a>
+     			 <a href="#Contact"><li>Contact Me</li></a>
+     			 <a href="#gallery"><li>Gallery</li></a>
+    		</ul>
+ 		 </div>
+	</nav>
+
+	<!--Home Page-->
+	<a id="home">
+	<div class="home"> 
+
+		<div class="heading">
+			<h2 class="glow">Hi, I am </h2>
+			<h2 class="glow">Anyanwu Maureen,</h2>
+			<h2 class="glow">A Front-end Developer</h2>
+			<button class="learn"><a href="#about">Learn more</a></button>
+		</div>
+	</div>
+	</a>	
+	
+	<br><!--Line Spacing-->
+
+	<!--About Page-->
+	<div class="about">
+		<a id="about">
+			<h3>About Me</h3>	
+				<!--Main Section in About Page-->
+				<div class ="main">
+					<img src="images/dp.jpg" id="img2" alt="A picture of Maureen" width="25%" height="25%">
+					<section class="bio">
+					<p>My name is Anyanwu Maureen, a <b style="color: #232946;">FRONT-END WEB DEVELOPER</b>. I am very conversant with the fundamentals of HTML, CSS and JavaScript. I work with technologies like BootStrap, React,etc. I can work effectively in a team. For now, I design websites and make them look appealing to visitors. </p>
+					</section>
+				</div>
+
+				<hr>
+
+				<!--Skills Section in About Page-->
+				<div>
+					<h3>Skills</h3>
+						<div id="Cube">
+						   	 <div id="skillsCube">
+						        <div id="side1"></div>
+						        <div id="side2"></div>
+						        <div id="side3"></div>
+						        <div id="side4"></div>
+						        <div id="side5"></div>
+						        <div id="side6"></div>
+						    </div>
+						</div>
+
+						<div class="skills">
+							<div>
+								<h3>Technical skills</h3>
+
+								<div class="technical">
+
+									<div class="skill-items">
+										<img src="images/001-html-5-logo.svg" width="100px" height="100px">
+										<h4>HTML</h4>
+									</div>
+								 
+									<div class="skill-items">
+										<img src="images/002-css-3.svg" width="100px" height="100px">
+										<h4>CSS</h4>
+									</div>
+								
+									<div class="skill-items">
+										<img src="images/003-javascript.svg" width="100px" height="100px">
+										<h4>JavaScript</h4> 
+									</div>
+								
+									<div class="skill-items">
+										<img src="images/004-git-logo.svg" width="100px" height="100px">
+										<h4>Git and Github</h4>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div>
+
+								<h3>Non-Technical skills</h3>
+
+								<div class="non-technical">
+									<div class="skill-items"><h4>Analytical Skills</h4></div>
+									<div class="skill-items"><h4>Strong Communication Skills</h4></div>
+									<div class="skill-items"><h4>Problem Solving Skills</h4></div>
+									<div class="skill-items"><h4>Team Player</h4></div>
+								</div>
+								
+							</div>
+
+				</div>
+
+				<!--Stats section-->
+				<div class="stats">
+					<div class="stat-item">
+						<img src="images/004-sharing.svg" width="50%" height="50%">
+						<h3>4 </h3>
+						<p>Projects Completed</p>
+					</div>
+
+					<div class="stat-item">
+						<img src="images/002-badge.svg" width="50%" height="50%">
+						<h3>2</h3> 
+						<p>Coding Certifications</p>
+					</div>
+
+					<div class="stat-item">
+						<img src="images/003-web-search-engine.svg" width="50%" height="50%">
+						<h3>1</h3>
+						<p>Ongoing Project</p>
+					</div>
+
+					<div class="stat-item">
+						<img src="images/001-presentation.svg" width="50%" height="50%">
+						<h3>1</h3>
+						<p>Year Of Experience</p>
+					</div>
+				</div>		
+	</div>
+
+	<hr>
+	
+	<!--Projects Page-->
+	<div class="Projects" id="Projects">
+		<a id="Projects">
+			<h3>Projects</h3>
+		</a>
+			<div class="container">	
+				<div class="container-items">
+					<h4>A Chat Application</h4>
+					<img src="images/i2talk.png" width="60%" height="60%" style="border: 5px solid #fffffe;">
+					<a href="https://github.com/nazeeeh/Chat-App">Repo</a>
+					<a href="https://team3-chat-app.netlify.app">Live</a>
+				</div>
+
+				<div class="container-items">
+					<h4>A CSS Phone</h4>
+					<img src="images/phone.png" width="60%" height="60%" style="border: 5px solid black;">
+					<a href="https://github.com/maura-dev/CSS-Phone">Repo</a>
+					<a href="https://codepen.io/maura-dev/full/LYGMzrJ">Live</a>
+				</div>
+
+				<div class="container-items">
+					<h4>A custom registration form</h4>
+					<img src="images/form.png" width="60%" height="60%" style="border: 5px solid pink;">
+					<a href="https://github.com/maura-dev/formPage">Repo</a>
+					<a href="https://codepen.io/maura-dev/full/PoZRRVP">Live</a>
+				</div>
+
+				<div class="container-items">
+					<h4>A Signup form </h4>
+					<img src="images/tiide.png" width="60%" height="60%" style="border: 5px solid mediumpurple;">
+					<a href="https://github.com/maura-dev/Tiidelab">Repo</a>
+					<a href="https://tiidelab-signup-form.netlify.app">Live</a>
+				</div>
+
+			</div>
+	</div>
+
+	<!--Testimonials-->
+	
+		<h3>Testimonials</h3>
+
+		<div class="testimonials">
+
+			<div class="testimonial-item">
+				<img src="images/benita.jpg" width="100px" height="auto" border="2px solid black">
+				<p>"Maureen is a very promising and enthusiastic girl who is always ready to work and never fails to carry other people along. She is a very good team player."</p>	
+				<p style="text-align: center;">~Eze Benita</p>
+			</div>
+		
+			<div class="testimonial-item">
+				<img src="images/chile.jpg" width="100px" height="auto" border="2px solid black" >
+				<p>"She is a very wonderful person and knows how to get the work done. She is very good with leadership roles and knows how to work alongside a team of other talented individuals. She is great to work with "</p>
+				<p style="text-align: center;">~Chile Maurice</p>
+			</div>
+
+		</div>
+
+	<hr>
+
+	<!--Contact Page-->
+	<div class="contact" id="Contact">
+		<a id="Contact">
+			<h3>Get In Touch</h3>
+
+			<div class="contactMe">
+				<form action="" name="contactMe" id="contactMe" method="POST" data-netlify="true" onsubmit="processForm">
+					<p><b>Want to talk? Send me a message, lets discuss.</b></p>
+					<p>Name</p>
+					<input type="text" name="name" id="name" placeholder="Enter your name here" required="">
+					<br>
+					<p>Email</p>
+					<input type="email" name="email" id="email" placeholder="Enter your email here" required="">
+					<br>
+					<p>Phone Number</p>
+					<input type="text" name="Number" id="Number" placeholder="Enter your Number here" required="">
+					<br>
+					<p>Leave a message </p>
+					<textarea rows="8" cols="3"></textarea>
+					<br>
+					<input type="submit" class ="submit" value="Send" id="button">		
+				</form>
+				<br>
+			</div>
+		</a>
+	</div>
+
+	<hr><!--Adding An Horizontal Rule Line-->
+
+	<!--Image gallery-->
+	<a id="gallery">
+		<div>
+			<h3>Gallery</h3>
+
+			<div class="grid-container">
+				<div class="images"><img src="images/6.jpeg"></div>
+				<div class="images"><img src="images/5.jpeg"></div>
+				<div class="images"><img src="images/2.jpeg"></div>
+				<div class="images"><img src="images/1.jpg"></div>
+				<div class="images"><img src="images/6.jpeg"></div>
+				<div class="images"><img src="images/1.jpg"></div>
+				<div class="images"><img src="images/5.jpeg"></div>
+				<div class="images"><img src="images/2.jpeg"></div>
+
+				</div>
+		</div>
+	</a>
+
+	<br>
+
+	<!--Footer-->
+	<footer>
+		<!--Social media links-->
+		<div>
+			<h4>Connect on Social Media</h4>
+				<a href="https://wa.me/+2349067212981"><img src="images/whatsapp.png" id="img7" alt="whatsapp icon"></a>
+				<a href="https://www.linkedin.com/in/maureen-anyanwu-4b37aa1b4"><img src="images/linkedin.png" id="img8" alt="instagram icon"></a>
+				<a href="https://twitter.com/anyanwu_maureen"><img src="images/twitter.png" id="img9" alt="twitter icon"></a>
+				<a href="https://www.github.com/maura-dev"><img src="images/github.png" id="img10" alt="github icon"></a>
+		</div>
+
+		<p>&copy;Anyanwu Maureen 2020</p>
+	</footer>
+
+</body>
+</html>
